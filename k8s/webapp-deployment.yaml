@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: benhpoh/reactdemo
+        image: benhpoh/reactdemo:latest
         imagePullPolicy: Always
         resources:
           requests:
@@ -26,4 +26,4 @@ spec:
             cpu: ".1"
             memory: ".1Gi"
         ports:
-        - containerPort: 3000
+        - containerPort: 80
