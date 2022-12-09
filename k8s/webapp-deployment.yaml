@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: benhpoh/reactdemo:latest
+        image: ghcr.io/section/reactdemo:0.0.1
         imagePullPolicy: Always
         resources:
           requests:
