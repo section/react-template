@@ -10,7 +10,7 @@ USERNAME=section
 IMAGENAME=react
 TAG=0.0.1
 
-docker build . -t $USERNAME/$IMAGENAME:$TAG
+docker build . --tag $USERNAME/$IMAGENAME:$TAG
 docker push $USERNAME/$IMAGENAME:$TAG
 
 # Deploy k8s yamls
