@@ -6,12 +6,12 @@ Refer to [Tutorials/React](https://www.section.io/docs/tutorials/react) for deta
 
 ```bash
 # Build and push react image
-USERNAME=section
+USER=section
 IMAGENAME=react
 TAG=0.0.1
 
-docker build . --tag $USERNAME/$IMAGENAME:$TAG
-docker push $USERNAME/$IMAGENAME:$TAG
+docker build . --tag ghcr.io/$USER/$IMAGENAME:$TAG
+docker push ghcr.io/$USER/$IMAGENAME:$TAG
 
 # Deploy k8s yamls
 # - Change image name in k8s/webapp-deployment.yaml if using your own image instead
