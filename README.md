@@ -13,7 +13,4 @@ TAG=0.0.1
 docker build . --tag ghcr.io/$USER/$IMAGENAME:$TAG
 docker push ghcr.io/$USER/$IMAGENAME:$TAG
 
-# Deploy k8s yamls
-# - Change image name in k8s/webapp-deployment.yaml if using your own image instead
-kubectl apply -f ./k8s/
 ```
