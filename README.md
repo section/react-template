@@ -1,5 +1,7 @@
 # Deploy a React App on Section Tutorial
 
+![workflow status](https://github.com/section/react-tutorial/actions/workflows/workflows.yaml/badge.svg)
+
 This repo holds the sample code for usage with the tutorials hosted on Section.io's documentations.
 
 Refer to [Tutorials/React](https://www.section.io/docs/tutorials/frameworks/react) for detailed instructions on deploying.
